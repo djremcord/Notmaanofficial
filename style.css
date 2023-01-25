@@ -1,0 +1,259 @@
+* {
+		margin: 0;
+		padding: 0;
+}
+
+html{
+		height: 100%;
+}
+
+body{
+		background-image: 
+		url('img/bg.png');
+		display: flex;
+		flex-direction: column;
+		min-height: 100%
+}
+
+nav{
+		width: 100%;
+		height: 100px;
+		background-color: #1b1b1b;
+}
+
+ul{
+		margin-left: 0%;
+}
+
+
+ul li{
+		list-style: none;
+		display: inline-block;
+		float: left;
+		line-height: 100px;
+}
+
+ul li a{
+		text-decoration: none;
+		font-size: 25px;
+		font-family: Century Gothic, Didact Gothic, Questrial, Muli, Futura PT;
+		color: #F5F5F5;
+		padding: 0 20px;
+		display: block;
+		transition: transform .2s;
+}
+
+article{
+		transition: transform .2s;
+		background-color: pink;
+		width: 23%;
+		height: 785px;
+		float: left;
+		margin: 0 1% 10px 0;
+		margin-left: 1%;
+}
+
+footer{
+		background: #1b1b1b;
+		color: #F5F5F5;
+		margin-top: auto;
+		height: 220px;
+		font-family: Century Gothic, Didact Gothic, Questrial, Muli, Futura PT;
+		font-size: 25px;
+		padding-top: 40px;
+}
+
+ul li a:hover{
+		transform: scale(1.25);
+		color: aqua;
+}
+
+article:hover{
+		transform: scale(1.05);
+}
+
+#wrapper{
+	  padding: 0px;
+	  margin: 0 auto;
+	  width: 100%;
+}
+
+#wrapper-contact{
+	  padding: 0px;
+	  margin: 0 auto;
+	  width: 100%;
+	  background-image: 
+		url('img/ContactBg.png');
+}
+
+.BredeFotoMetText{
+		width: 100%;
+		height: auto;
+		float: left;
+		margin: 0 -5px 10px 0;
+}
+
+.lange-foto{
+		transition: transform .2s;
+		background-color: pink;
+		width: 23%;
+		height: 1570px;
+		float: left;
+		margin: 0 1% 10px 0;
+		margin-left: 1%;
+}
+
+.About-Me-Text{
+		background-color: #1b1b1b;
+		width: 40%;
+		height: 500px;
+		float: left;
+		margin: 0 1% 10px 1%;
+		border-radius: 25px;
+}
+
+.About-Me-Text h2{
+		margin: 20px 0 0 20px;
+		font-family: Century Gothic, Didact Gothic, Questrial, Muli, Futura PT;
+		font-size: 25px;
+		color: #F5F5F5;
+		font-weight: bold;
+}
+
+.About-Me-Text p{
+		margin: 20px 25px 0 20px;
+		font-family: Century Gothic, Didact Gothic, Questrial, Muli, Futura PT;
+		font-size: 20px;
+		color: #F5F5F5;
+		font-weight: bold;
+}
+
+.About-Me-Text h3{
+		margin: 20px 25px 0 20px;
+		font-family: Century Gothic, Didact Gothic, Questrial, Muli, Futura PT;
+		font-size: 18px;
+		color: #F5F5F5;
+		font-weight: bold;
+}
+
+.About-Me-Linkjes{
+		transition: transform .2s;
+		background-color: pink;
+		width: 26.25%;
+		height: 250px;
+		float: left;
+		margin: 0 15px 10px 15px;
+		margin-left: 1%;
+		border-radius: 25px;
+}
+
+.navigatie {
+		margin-left: 35%;
+}
+
+.footer-content{
+		display: flex;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		flex-direction: column;
+}
+
+.footer-content h3{
+		font-size: 40px;
+		text-transform: capitalize;
+}
+
+.footer-content p{
+		max-width: 90%;
+		margin: 10px auto;
+		font-size: 25px;
+}
+
+.socials{
+		list-style: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 5px 0 5px 0;
+}
+
+.socials li{
+		margin: 0 10px;
+}
+
+.socials a{
+		text-decoration: none;
+}
+
+.footer-bottom{
+		background: #000;
+		width: 100%;
+		padding: 20px 0;
+		text-align: center;
+}
+
+.footer-bottom p{
+		font-size: 16px;
+		word-spacing: 3px;
+		text-transform: capitalize;
+}
+
+.footer-bottom span{
+		text-transform: uppercase;
+		opacity: .4;
+		font-weight: 200;
+}
+
+.contact-box{
+		width: 26%;
+		height: 40%;
+		background-color: #1b1b1b;
+		box-shadow: 0 0 20px 0 #999;
+		margin-left: 36%;
+		margin-top: 50px;
+		margin-bottom: 100px;
+		border-radius: 25px;
+}
+
+form{
+		margin: 35px;
+}
+
+.input-field{
+		width: 90%;
+		height: 20px;
+		margin-top: 8%;
+		padding-left: 5%;
+		padding-right: 5%;
+		border: 1px solid #777;
+		border-radius: 14px;
+		outline: none;
+}
+
+.Textarea-Field{
+		height: 150px;
+		padding-top: 10px;
+}
+
+.btn{
+		border-radius: 25px;
+		color: #1b1b1b;
+		margin-top: 20px;
+		padding: 3%;
+		background-color: aqua;
+		border: none;
+		cursor: pointer;
+		transition: transform .2s;
+}
+
+.btn:hover{
+		border-radius: 20px;
+		color: #1b1b1b;
+		margin-top: 20px;
+		padding: 3%;
+		background-color: aqua;
+		border: none;
+		cursor: pointer;
+		transform: scale(1.30);
+}
